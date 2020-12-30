@@ -1,0 +1,42 @@
+.evaluation-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f0f2f6;
+  min-height: 100vh;
+  padding-top: 5rem;
+}
+.evaluation-container .footer-svg{
+  /* margin-top: 5rem; */
+  transform: translateY(4rem);
+  width: 100%;
+  display: block;
+}
+input[type="text"]::placeholder{
+  letter-spacing: .1rem;
+  font-family: 'SF Pro Text',Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (orientation: landscape){
+  .evaluation-container{
+    background-color: #f0f2f6;
+    min-height: 100vh;
+    padding-top: 2rem;
+
+  }
+  .evaluation-container .footer-svg{
+    margin-top: 5rem;
+    position: static;
+    /* position: absolute;
+    bottom: 0; */
+    width: 100%;
+  }
+}
+@media screen and (max-width:468px) {
+  .scrollable{
+    height: 60vh;
+  }
+  .evaluation-container .footer-svg{
+    transform: none;
+  }
+}

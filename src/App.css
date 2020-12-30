@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
+@font-face {
+	font-family: 'SF Pro Text';
+	src: url('./assets/font/SFProText-Medium.eot');
+	src: url('./assets/font/SFProText-Medium.eot?#iefix')
+			format('embedded-opentype'),
+		url('./assets/font/SFProText-Medium.woff') format('woff'),
+		url('./assets/font/SFProText-Medium.woff2') format('woff2'),
+		url('./assets/font/SFProText-Medium.ttf') format('truetype'),
+		url('./assets/font/SFProText-Medium.svg#SFProText-Medium') format('svg');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+	font-family: 'SF Pro Text', Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button,
+a {
+	cursor: pointer;
+	font-family: 'SF Pro Text', Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input::placeholder {
+	font-family: 'SF Pro Text', Verdana, Geneva, Tahoma, sans-serif;
 }

@@ -1,0 +1,115 @@
+.patient-consultation-container{
+  width: 100%;
+  padding: 2rem;
+  color: #224a68;
+  position: relative;
+  overflow: hidden;
+}
+.patient-consultation-container.over{
+  position: fixed;
+}
+.patient-consultation-container h1{
+  text-align: center;
+  margin: 2rem 0 3rem 0;
+}
+.patient-consultation-container em{
+  font-style: normal;
+}
+.patient-consultation-container .consult-box{
+  background-color: #fff;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
+}
+.patient-consultation-container .consult-box .header{
+  display: flex;
+  justify-content: space-between;
+}
+.patient-consultation-container .consult-box .header em:first-child{
+  font-weight: 600;
+}
+.patient-consultation-container .consult-box p{
+  font-size: .85rem;
+  margin-top: 1rem;
+}
+.patient-consultation-container .emergency{
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 3.5rem;
+  text-align: center;
+}
+.patient-consultation-container .emergency button{
+  color: #fff;
+  margin-top: 1rem;
+  width: 100%;
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  background-color: #ef4747;
+  border: none;
+  font-size: 1.1rem;
+}
+.patient-consultation-container .agreement{
+  position: fixed;
+  bottom: -20rem;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  background-color: #86a4bb;
+  padding: 1rem;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  width: 100%;
+  transition: all .3s;
+  min-height: 100vh;
+}
+.patient-consultation-container .agreement.display{
+  opacity: 1;
+  visibility: visible;
+  bottom: 0;
+}
+.patient-consultation-container .agreement .main{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  padding: 1rem;
+}
+.patient-consultation-container .agreement p{
+  display: block;
+  margin-bottom: 1rem;
+ 
+}
+.patient-consultation-container .agreement input{
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+.patient-consultation-container .agreement button{
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #406581;
+  font-size: 1.4rem;
+  margin-left: 0;
+}
+.patient-consultation-container .agreement img{
+  width: 2rem;
+  display: block;
+  position: absolute;
+  right: 2rem;
+  top: 6rem;
+}
+.patient-consultation-container > button {
+  display: block;
+  margin: 2rem auto 0;
+  width: 60%;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #28abfa;
+  font-size: 1.2rem;
+  color: #fff;
+}
