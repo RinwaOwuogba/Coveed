@@ -1,0 +1,73 @@
+
+.dhomeContainer {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #eee;
+}
+
+.dh-container{
+    width: auto;
+    text-align: left;
+}
+
+.dhomeHeader {
+    padding: 0.5rem;
+    height: 30vh;
+    width: 100%;
+    background-color: #234661;
+    color: #fff;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.dhomeHeader h1 {
+    font-size: 1.4rem;
+    letter-spacing: 1.6px;
+    margin-left:
+        10px;
+}
+
+.dhomeHeader p {
+    color: #c9c4c4;
+    font-size: 0.8rem;
+    margin: 15px 10px;
+}
+
+.search {
+    padding: 15px;
+    border: none;
+    border-radius: 70px;
+    box-shadow: 0 5px 5px -1px #ccc;
+    margin: 0 auto;
+    position: relative;
+    top: -25px;
+    width: 60%;
+    left: 20%;
+}
+
+.reports{
+    margin-top: 20px;
+    padding: 0 1rem;
+}
+
+@media only screen and (min-width: 700px){
+    .search{
+        width: 40%;
+        left: 30%;
+    }
+    .dh-container{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+    .dhomeHeader p {
+        font-size: 1rem;
+    }
+    .dhomeHeader h1 {
+        font-size: 1.6rem;
+    }
+
+}
