@@ -8,7 +8,6 @@ spec:
         branch: main
         deploy_on_push: true
         repo: RinwaOwuogba/coveed
-      error_document: index.html
       http_port: 8080
       instance_count: 1
       instance_size_slug: basic-xs
