@@ -1,5 +1,5 @@
 spec:
-  name: coveed
+  - name: coveed
   region: fra
   services:
     - build_command: npm run build
